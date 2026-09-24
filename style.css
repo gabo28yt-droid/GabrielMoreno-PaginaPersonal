@@ -271,7 +271,7 @@
   }
 /* Define tamaño y color del texto descriptivo de la presentación. */
   .hero-copy p{
-    font-size:1.06rem;
+    font-size:1.14rem;
     color:var(--texto-secundario);
   }
 /* Contenedor de referencia para la fotografía personal. */
@@ -360,7 +360,7 @@
 /* Texto descriptivo de cada etapa. */
   .timeline p{
     color:var(--texto-secundario);
-    font-size:0.97rem;
+    font-size:1.05rem;
     max-width:56ch;
   }
 /* Lista secundaria utilizada dentro de la formación adicional. */
@@ -535,7 +535,7 @@
 /* Título de cada actividad de voluntariado. */
   .volunteer-row h3{ font-size:1.1rem; }
 /* Descripción de cada actividad de voluntariado. */
-  .volunteer-row p{ color:var(--texto-secundario); font-size:0.96rem; margin:0; }
+  .volunteer-row p{ color:var(--texto-secundario); font-size:1.05rem; margin:0; }
 /* Invierte la posición de imagen y texto en filas alternas. */
   .volunteer-row:nth-of-type(even){
     direction:rtl;
