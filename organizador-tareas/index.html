@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Organizador de tareas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app" aria-labelledby="title">
+    <section class="task-card">
+      <p class="eyebrow">Organiza tu día</p>
+      <h1 id="title">Mis tareas</h1>
+      <p class="subtitle">Añade, completa o elimina tus pendientes.</p>
+
+      <form id="task-form" class="task-form">
+        <label class="sr-only" for="task-input">Nueva tarea</label>
+        <input id="task-input" name="task" type="text" placeholder="¿Qué necesitas hacer?" autocomplete="off" maxlength="100" required>
+        <button type="submit">Agregar</button>
+      </form>
+
+      <div class="task-summary" aria-live="polite">
+        <span id="task-count">0 tareas pendientes</span>
+        <button id="clear-completed" class="text-button" type="button">Limpiar completadas</button>
+      </div>
+
+      <ul id="task-list" class="task-list" aria-live="polite" aria-label="Lista de tareas"></ul>
+      <p id="empty-message" class="empty-message">Aún no tienes tareas. ¡Agrega la primera!</p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
