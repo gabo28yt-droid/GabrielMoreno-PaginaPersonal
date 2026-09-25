@@ -1,25 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<!-- ===== CABECERA: configuración, título y hoja de estilos ===== -->
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gabriel Moreno — Marca Personal</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gabriel Moreno — Marca Personal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<!-- ===== MENÚ LATERAL: navegación principal ===== -->
 <nav class="sidebar" aria-label="Navegación principal">
-  <div class="brand-mark">
-    <img class="brand-logo" src="archivos/logo.png" alt="Logo de Gabriel Moreno">
-  </div>
+  <div class="brand-mark"><img class="brand-logo" src="archivos/logo.png" alt="Logo de Gabriel Moreno"></div>
   <h1>Gabriel Moreno</h1>
-  <p class="role">Bachillerato General · Tecnología &amp; Entusiasmo por descrubrir cosas nuevas</p>
-
+  <p class="role">Bachillerato General · Tecnología &amp; Entusiasmo por descubrir cosas nuevas</p>
   <ul class="sidebar-nav">
     <li><a href="#inicio"><span class="idx">01</span> Inicio</a></li>
     <li><a href="#formacion"><span class="idx">02</span> Formación académica</a></li>
@@ -29,406 +23,99 @@
     <li><a href="#portafolio"><span class="idx">06</span> Portafolio</a></li>
     <li><a href="#cv"><span class="idx">07</span> Currículo</a></li>
   </ul>
-
-  <div class="sidebar-footer">
-    Complejo Educativo Confederación Suiza
-    <br>
-  </div>
+  <div class="sidebar-footer">Complejo Educativo Confederación Suiza</div>
 </nav>
-
-<!-- ===== CONTENIDO PRINCIPAL ===== -->
 <main>
+  <section id="inicio"><div class="hero-grid"><div class="hero-copy">
+    <p class="kicker">Marca Personal</p><h2>Aprendo tecnología pensando de forma distinta.</h2>
+    <p>Soy Gabriel Moreno, estudiante de último año de bachillerato y estoy por culminar mi formación integral en inglés, informática y valores en el Centro ¡Supérate! Grupo Q. Desde siempre me ha llamado la atención entender cómo funcionan las cosas: qué hay detrás de un sistema, por qué falla y cómo se arregla.</p>
+    <p>Soy constante: cuando me propongo algo, lo sigo hasta el final aunque tome tiempo. Mi meta es estudiar Ingeniería en Sistemas y Redes Informáticas.</p>
+  </div><div class="photo-frame"><div class="photo-slot"><img src="archivos/yo.jpeg" alt="Gabriel Moreno"></div></div></div></section>
 
-  <!-- ===== SECCIÓN 1: INICIO ===== -->
-  <section id="inicio">
-    <div class="hero-grid">
-      <div class="hero-copy">
-        <p class="kicker">Marca Personal</p>
-        <h2>Aprendo tecnología pensando de forma distinta.</h2>
-        <p>
-          Soy Gabriel Moreno, estudiante de último año de bachillerato y estoy por culminar mi formación integral en inglés, informática y valores en el Centro ¡Supérate! Grupo Q. 
-          Desde siempre me ha llamado la atención entender cómo funcionan las cosas: qué hay detrás de un sistema, por qué falla, cómo se arregla. 
-          Esa curiosidad me llevó a la tecnología, y con el tiempo descubrí que se me facilita bastante, tanto que ya no la veo como una materia más sino como algo que disfruto de verdad. 
-          Me gusta ver los problemas desde otro ángulo, cuestionar lo obvio y buscarle una vuelta distinta antes de dar algo por hecho, y esa forma de pensar me ha servido en cada proyecto en el [
-        </p>
-      </div>
-      <div class="photo-frame">
-        <div class="photo-backdrop" aria-hidden="true"></div>
-        <div class="photo-slot">
-          <img src="archivos/yo.jpeg" alt="Gabriel Moreno">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== SECCIÓN 2: FORMACIÓN ACADÉMICA ===== -->
-  <section id="formacion">
-    <p class="kicker">Formación académica</p>
-    <h2>Cómo he llegado hasta aquí</h2>
-    <p class="lede">En orden cronológico inverso.</p>
-
+  <section id="formacion"><p class="kicker">Formación académica</p><h2>Cómo he llegado hasta aquí</h2><p class="lede">En orden cronológico inverso.</p>
     <ul class="timeline">
-      <li>
-        <h3>Bachillerato General-2025/2026</h3>
-        <p class="meta">Complejo Educativo Confederación Suiza</p>
-      </li>
-      <li>
-        <h3>Programa ¡Supérate!-2024/2026</h3>
-        <p class="meta">Formación intensiva complementaria</p>
-        <p>Inglés, Informática y Valores.</p>
-      </li>
-      <li>
-        <h3>Educación Básica-2021/2024</h3>
-        <p class="meta">Complejo Educativo Aminta de Montiel</p>
-      </li>
-      <li>
-         <h3>Cursos y formación adicional</h3>
-        <ul class="sub-list">
-          <li><strong>Academia Sabatina ASAB-2022/2025:</strong> graduado tras 4 años de formación continua.</li>
-          <li><strong>Taller de Prompt Engineering e Inteligencia Artificial-2026:</strong> capacitación de como hacer más acertados nuestros prompts para obtener
-            mejores resultados.</li>
-          <li><strong>Visitas a empresas-2022/2026:</strong> capacitaciones en Sandbox, Applaudo, Innovalab y Bancomi.</li>
-          <li><strong>Talleres impartidos por Universidades-2022/2026:</strong> talleres impartidos por La Universidad de Oriente(Univo), y Universidad Dr. Matías Delgado.</li>
-        </ul>
-      </li>
+      <li><h3>Bachillerato General-2025/2026</h3><p class="meta">Complejo Educativo Confederación Suiza</p></li>
+      <li><h3>Programa ¡Supérate!-2024/2026</h3><p class="meta">Formación intensiva complementaria</p><p>Inglés, Informática y Valores.</p></li>
+      <li><h3>Educación Básica-2021/2024</h3><p class="meta">Complejo Educativo Aminta de Montiel</p></li>
+      <li><h3>Cursos y formación adicional</h3><ul class="sub-list"><li><strong>Academia Sabatina ASAB-2022/2025:</strong> graduado tras 4 años de formación continua.</li><li><strong>Taller de Prompt Engineering e Inteligencia Artificial-2026:</strong> capacitación para hacer prompts más acertados.</li><li><strong>Visitas a empresas-2022/2026:</strong> capacitaciones en Sandbox, Applaudo, Innovalab y Bancomi.</li><li><strong>Talleres impartidos por Universidades-2022/2026:</strong> UNIVO y Universidad Dr. Matías Delgado.</li></ul></li>
     </ul>
   </section>
 
-  <!-- ===== SECCIÓN 3: LOGROS ACADÉMICOS ===== -->
-  <section id="logros">
-    <p class="kicker">Logros Académicos</p>
-    <h2>Momentos de los que estoy orgulloso y me motivan a seguir esforzandome para conseguir nuevas experiencias en la vida.</h2>
-
+  <section id="logros"><p class="kicker">Logros Académicos</p><h2>Momentos de los que estoy orgulloso y me motivan a seguir esforzándome para conseguir nuevas experiencias.</h2>
     <div class="achievement-highlights">
-      <div class="card">
-        <div class="img-slot">
-          <label class="media-trigger" aria-label="Ampliar PDF" for="toggle-pdf-speech2026">
-            <img src="archivos/Speechcontest2-preview.jpeg" alt="Vista previa - Speech Contest 2026">
-          </label>
-        </div>
-        <span class="tag">Speech Contest 2026</span>
-        <h3>Primer lugar</h3>
-        <p>Concurso de Oratoria en Inglés.</p>
-      </div>
-
-      <div class="card">
-        <div class="img-slot">
-          <label class="media-trigger" aria-label="Ampliar PDF" for="toggle-pdf-speech2025">
-            <img src="archivos/Speechcontest1-preview.jpeg" alt="Vista previa - Speech Contest 2025">
-          </label>
-        </div>
-        <span class="tag">Speech Contest 2025</span>
-        <h3>Segundo lugar</h3>
-        <p>Concurso de Oratoria en Inglés.</p>
-      </div>
-
-      <div class="card">
-        <div class="img-slot">
-          <label class="media-trigger" aria-label="Ampliar PDF" for="toggle-pdf-estrellita-info">
-            <img src="archivos/EstrellitaInfo-preview.jpeg" alt="Vista previa - Estrella ¡Supérate! Grupo Q 2025 Informática">
-          </label>
-        </div>
-        <span class="tag">Estrella ¡Supérate! Grupo Q 2025 Informática</span>
-        <h3>Acciones, esfuerzo y dedicación por la materia de Informática durante segundo año ¡Supérate!</h3>
-        <p></p>
-      </div>
-
-      <div class="card">
-        <div class="img-slot">
-          <label class="media-trigger" aria-label="Ampliar PDF" for="toggle-pdf-estrella-valores">
-            <img src="archivos/EstrellitaValores-preview.jpeg" alt="Vista previa - Estrella ¡Supérate! Grupo Q 2024 Valores">
-          </label>
-        </div>
-        <span class="tag">Estrella ¡Supérate! Grupo Q 2024 Valores</span>
-        <h3>Por haber destacado con acciones y desempeño durante el año academico en la materia de Valores</h3>
-        <p></p>
-      </div>
-
-      <div class="card">
-        <div class="img-slot">
-          <label class="media-trigger" aria-label="Ampliar PDF" for="toggle-pdf-idea-innovadora">
-            <img src="archivos/IdeaInnovadora-preview.jpeg" alt="Vista previa - Idea innovadora 2022">
-          </label>
-        </div>
-        <span class="tag">Idea innovadora 2023</span>
-        <h3>Reconociemiento a idea de negocios innvoadora</h3>
-        <p>Presentación de idea de negocios</p>
-      </div>
+      <div class="card"><div class="img-slot"><label class="media-trigger" aria-label="Ampliar imagen" for="toggle-pdf-speech2026"><img src="archivos/Speechcontest2-preview.jpeg" alt="Vista previa - Speech Contest 2026"></label></div><span class="tag">Speech Contest 2026</span><h3>Primer lugar</h3><p>Concurso de Oratoria en Inglés.</p></div>
+      <div class="card"><div class="img-slot"><label class="media-trigger" aria-label="Ampliar imagen" for="toggle-pdf-speech2025"><img src="archivos/Speechcontest1-preview.jpeg" alt="Vista previa - Speech Contest 2025"></label></div><span class="tag">Speech Contest 2025</span><h3>Segundo lugar</h3><p>Concurso de Oratoria en Inglés.</p></div>
+      <div class="card"><div class="img-slot"><label class="media-trigger" aria-label="Ampliar imagen" for="toggle-pdf-estrellita-info"><img src="archivos/EstrellitaInfo-preview.jpeg" alt="Vista previa - Estrella Supérate Informática"></label></div><span class="tag">Estrella ¡Supérate! Grupo Q 2025 Informática</span><h3>Acciones, esfuerzo y dedicación por Informática.</h3></div>
+      <div class="card"><div class="img-slot"><label class="media-trigger" aria-label="Ampliar imagen" for="toggle-pdf-estrella-valores"><img src="archivos/EstrellitaValores-preview.jpeg" alt="Vista previa - Estrella Supérate Valores"></label></div><span class="tag">Estrella ¡Supérate! Grupo Q 2024 Valores</span><h3>Reconocimiento por desempeño en Valores.</h3></div>
+      <div class="card"><div class="img-slot"><label class="media-trigger" aria-label="Ampliar imagen" for="toggle-pdf-idea-innovadora"><img src="archivos/IdeaInnovadora-preview.jpeg" alt="Vista previa - Idea innovadora"></label></div><span class="tag">Idea innovadora 2023</span><h3>Reconocimiento a idea de negocios innovadora.</h3></div>
     </div>
-
     <h3 class="section-sub">Certificaciones digitales</h3>
     <div class="cert-grid">
-      <label class="cert-slot"  for="toggle-media-css">
-        <svg class="cert-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M7 3h7l5 5v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"/><path d="M14 3v5h5"/><path d="M9 12h6M9 16h6"/></svg>
-        <span class="cert-name">Introducción a CSS</span>
-        <span class="cert-hint">ver PDF ↗</span>
-      </label>
-      <label class="cert-slot"  for="toggle-media-html">
-        <svg class="cert-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M7 3h7l5 5v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"/><path d="M14 3v5h5"/><path d="M9 12h6M9 16h6"/></svg>
-        <span class="cert-name">Introducción a HTML</span>
-        <span class="cert-hint">ver PDF ↗</span>
-      </label>
-      <label class="cert-slot"  for="toggle-pdf-excel-expert">
-        <svg class="cert-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M7 3h7l5 5v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"/><path d="M14 3v5h5"/><path d="M9 12h6M9 16h6"/></svg>
-        <span class="cert-name">Microsoft Excel Expert</span>
-        <span class="cert-hint">ver PDF ↗</span>
-      </label>
-      <label class="cert-slot"  for="toggle-pdf-excel-intermedio">
-        <svg class="cert-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M7 3h7l5 5v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"/><path d="M14 3v5h5"/><path d="M9 12h6M9 16h6"/></svg>
-        <span class="cert-name">Microsoft Excel Intermedio</span>
-        <span class="cert-hint">ver PDF ↗</span>
-      </label>
-      <label class="cert-slot" for="toggle-pdf-telus">
-        <svg class="cert-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M7 3h7l5 5v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"/><path d="M14 3v5h5"/><path d="M9 12h6M9 16h6"/></svg>
-        <span class="cert-name">Grupo de Inglés — TELUS</span>
-        <span class="cert-hint">ver PDF ↗</span>
-      </label>
-      <label class="cert-slot"  for="toggle-pdf-netacad">
-        <svg class="cert-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M7 3h7l5 5v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"/><path d="M14 3v5h5"/><path d="M9 12h6M9 16h6"/></svg>
-        <span class="cert-name">NetAcad</span>
-        <span class="cert-hint">ver PDF ↗</span>
-      </label>
-      <label class="cert-slot"  for="toggle-pdf-devweek">
-        <svg class="cert-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M7 3h7l5 5v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"/><path d="M14 3v5h5"/><path d="M9 12h6M9 16h6"/></svg>
-        <span class="cert-name">DevWeek — Elaniin</span>
-        <span class="cert-hint">ver PDF ↗</span>
-      </label>
-      <label class="cert-slot"  for="toggle-media-js">
-        <svg class="cert-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M7 3h7l5 5v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"/><path d="M14 3v5h5"/><path d="M9 12h6M9 16h6"/></svg>
-        <span class="cert-name">Introducción a JavaScript</span>
-        <span class="cert-hint">ver PDF ↗</span>
-      </label>
+      <label class="cert-slot" for="toggle-media-css"><span class="cert-name">Introducción a CSS</span><span class="cert-hint">ver certificado ↗</span></label>
+      <label class="cert-slot" for="toggle-media-html"><span class="cert-name">Introducción a HTML</span><span class="cert-hint">ver certificado ↗</span></label>
+      <label class="cert-slot" for="toggle-pdf-excel-expert"><span class="cert-name">Microsoft Excel Expert</span><span class="cert-hint">ver PDF ↗</span></label>
+      <label class="cert-slot" for="toggle-pdf-excel-intermedio"><span class="cert-name">Microsoft Excel Intermedio</span><span class="cert-hint">ver certificado ↗</span></label>
+      <label class="cert-slot" for="toggle-pdf-telus"><span class="cert-name">Grupo de Inglés — TELUS</span><span class="cert-hint">ver certificado ↗</span></label>
+      <label class="cert-slot" for="toggle-pdf-netacad"><span class="cert-name">NetAcad</span><span class="cert-hint">ver PDF ↗</span></label>
+      <label class="cert-slot" for="toggle-pdf-devweek"><span class="cert-name">DevWeek — Elaniin</span><span class="cert-hint">ver certificado ↗</span></label>
+      <label class="cert-slot" for="toggle-media-js"><span class="cert-name">Introducción a JavaScript</span><span class="cert-hint">ver certificado ↗</span></label>
     </div>
   </section>
 
-  <!-- ===== SECCIÓN 4: VOLUNTARIADO ===== -->
-  <section id="voluntariado">
-    <p class="kicker">Voluntariado</p>
-    <h2>Devolver algo de lo que he recibido</h2>
-
-    <div class="volunteer-row">
-      <div class="img-slot">
-        <label class="media-trigger"  aria-label="Ampliar imagen" for="toggle-img-vol1"><img src="archivos/voluntariado1.jpeg" alt="Clases con los niños." ></label>
-      </div>
-      <div>
-        <h3>Proyecto social de alfabetización</h3>
-        <p>Apoyo a docentes de primer y segundo grado, para reforzar habilidades de lectura y escritura, además de apoyar con los contenidos desarrollados en la clase.</p>
-      </div>
-    </div>
-
-    <div class="volunteer-row">
-      <div class="img-slot">
-        <label class="media-trigger"  aria-label="Ampliar imagen" for="toggle-img-vol2"><img src="archivos/voluntariado2.jpeg" alt="Ayuda comunitaria." ></label>
-      </div>
-      <div>
-        <h3>Actividades comunitarias</h3>
-        <p>Participación en jornadas de limpieza, apoyo en la iglesia y mejora de zonas verdes cerca del Complejo Educativo Confederación suiza y en las comunidades alrededor de la institución.</p>
-      </div>
-    </div>
-
-    <div class="volunteer-row">
-      <div class="img-slot">
-        <label class="media-trigger"  aria-label="Ampliar imagen" for="toggle-img-vol3"><img src="archivos/voluntariado3.jpeg" alt="Mañanitas recreativas." ></label>
-      </div>
-      <div>
-        <h3>Mañanitas recreativas — Guardería Federico Rosales</h3>
-        <p>Actividades lúdicas con los niños durante una parte de la mañana: bailes, cantos, pinturas y un pequeño refrigerio al final.</p>
-      </div>
-    </div>
+  <section id="voluntariado"><p class="kicker">Voluntariado</p><h2>Devolver algo de lo que he recibido</h2>
+    <div class="volunteer-row"><div class="img-slot"><label class="media-trigger" aria-label="Ampliar imagen" for="toggle-img-vol1"><img src="archivos/voluntariado1.jpeg" alt="Clases con los niños"></label></div><div><h3>Proyecto social de alfabetización</h3><p>Apoyo a docentes de primer y segundo grado para reforzar habilidades de lectura y escritura.</p></div></div>
+    <div class="volunteer-row"><div class="img-slot"><label class="media-trigger" aria-label="Ampliar imagen" for="toggle-img-vol2"><img src="archivos/voluntariado2.jpeg" alt="Ayuda comunitaria"></label></div><div><h3>Actividades comunitarias</h3><p>Participación en jornadas de limpieza, apoyo en la iglesia y mejora de zonas verdes.</p></div></div>
+    <div class="volunteer-row"><div class="img-slot"><label class="media-trigger" aria-label="Ampliar imagen" for="toggle-img-vol3"><img src="archivos/voluntariado3.jpeg" alt="Mañanitas recreativas"></label></div><div><h3>Mañanitas recreativas — Guardería Federico Rosales</h3><p>Actividades lúdicas con los niños: bailes, cantos, pinturas y refrigerio.</p></div></div>
   </section>
 
-  <!-- ===== SECCIÓN 5: TRABAJOS ACADÉMICOS ===== -->
-  <section id="trabajos-academicos">
-    <p class="kicker">Trabajos académicos</p>
-    <h2>Investigaciones y trabajos realizados</h2>
-    <p class="lede">
-      Aquí presento algunos trabajos académicos que forman parte de mi proceso de aprendizaje.
-    </p>
+  <section id="trabajos-academicos"><p class="kicker">Trabajos académicos</p><h2>Investigaciones y trabajos realizados</h2><p class="lede">Aquí presento algunos trabajos académicos que forman parte de mi proceso de aprendizaje.</p><div class="research-card"><div><span class="research-kind">Investigación académica · Trabajo grupal</span><h4>Anteproyecto de investigación — Grupo C</h4><p>Documento de investigación elaborado en grupo.</p></div><label class="research-button" for="toggle-pdf-research">Ver investigación</label></div></section>
 
-    <div class="research-card">
-      <div>
-        <span class="research-kind">Investigación académica · Trabajo grupal</span>
-        <h4>Anteproyecto de investigación — Grupo C</h4>
-        <p>Documento de investigación elaborado en grupo como parte de mi formación académica.</p>
-      </div>
-      <label class="research-button" for="toggle-pdf-research">Ver investigación</label>
-    </div>
-  </section>
-
-  <!-- ===== SECCIÓN 6: PORTAFOLIO ===== -->
-  <section id="portafolio">
-    <p class="kicker">Portafolio</p>
-    <h2>Lo que he construido</h2>
-
-    <div class="portfolio-tabs-label">
-      <h3>Categoría tecnológica</h3>
-      <div class="line"></div>
-      <a class="repo-link" href="proyectos/README.md">ver proyectos</a>
-    </div>
-
+  <section id="portafolio"><p class="kicker">Portafolio</p><h2>Lo que he construido</h2><div class="portfolio-tabs-label"><h3>Categoría tecnológica</h3><div class="line"></div><a class="repo-link" href="proyectos/README.md">ver proyectos</a></div>
     <div class="project-grid">
-      <div class="project-card" style="--accent:var(--color-web)">
-        <div class="img-slot">
-          <img src="archivos/bitex.png" alt="Proyecto BiteX">
-        </div>
-        <div class="body">
-          <h4>BiteX</h4>
-          <p>Plataforma web desarrollada para la redistribución y reducción del desperdicio de alimentos.</p>
-          <ul class="stack"><li>Web</li><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
-        </div>
-      </div>
-
-      <div class="project-card" style="--accent:var(--color-diseno)">
-        <div class="img-slot">
-          <img src="archivos/refrescate.jpeg" alt="Imagen del proyecto">
-        </div>
-        <div class="body">
-          <h4>EcoEnvase 3D / Refresca-te</h4>
-          <p>Diseño y modelado geométrico de empaques tridimensionales ecológicos.</p>
-          <ul class="stack"><li>modelado 3D</li></ul>
-        </div>
-      </div>
-
-      <div class="project-card" style="--accent:var(--color-sin-codigo)">
-        <div class="img-slot">
-          <img src="archivos/carfix.jpeg" alt="Proyecto Carfix">        </div>
-        <div class="body">
-          <h4>Carfix</h4>
-          <p>Videos con soluciones para problemas automovilísticos a los que se puede recurrir en caso de emergencia, los cuales abordaban los vehiculos ofrecidos por Grupo Q.</p>
-          <ul class="stack"><li>PowerApps</li></ul>
-        </div>      </div>
-
-      <div class="project-card" style="--accent:var(--color-sin-codigo)">
-        <div class="img-slot">
-          <img src="archivos/emertech.jpeg" alt="Proyecto Emertech">
-        </div>
-        <div class="body">
-          <h4>Emertech</h4>
-          <p>Herramienta orientada a brindar ayuda ante situaciones de emergencia.</p>
-          <ul class="stack"><li>Glide</li></ul>
-        </div>
-      </div>
-
-      <div class="project-card" style="--accent:var(--color-web)">
-        <div class="img-slot">
-          <img src="archivos/medicoaching.jpeg" alt="Proyecto Medicoaching">
-        </div>
-        <div class="body">
-          <h4>Medicoaching</h4>
-          <p>Capacitaciones de lengua de señas LESSA y ASL orientadas al lenguaje técnico médico.</p>
-          <ul class="stack"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
-        </div>
-      </div>
-
-      <div class="project-card" style="--accent:var(--color-web)">
-        <div class="img-slot">
-          <img src="archivos/comicquest.jpeg" alt="Proyecto Comicquest">
-        </div>
-        <div class="body">
-          <h4>Comicquest</h4>
-          <p>Pequeña exploración espacial organizada por medio de distintos apartados.</p>
-          <ul class="stack"><li>HTML</li><li>CSS</li></ul>
-        </div>
-      </div>
+      <div class="project-card"><div class="img-slot"><label class="media-trigger" aria-label="Ampliar imagen" for="toggle-img-bitex"><img src="archivos/bitex.png" alt="Proyecto BiteX"></label></div><div class="body"><h4>BiteX</h4><p>Plataforma web para la redistribución y reducción del desperdicio de alimentos.</p><ul class="stack"><li>Web</li><li>HTML</li><li>CSS</li><li>JavaScript</li></ul></div></div>
+      <div class="project-card"><div class="img-slot"><label class="media-trigger" aria-label="Ampliar imagen" for="toggle-img-refrescate"><img src="archivos/refrescate.jpeg" alt="EcoEnvase 3D / Refresca-te"></label></div><div class="body"><h4>EcoEnvase 3D / Refresca-te</h4><p>Diseño y modelado geométrico de empaques tridimensionales ecológicos.</p></div></div>
+      <div class="project-card"><div class="img-slot"><label class="media-trigger" aria-label="Ampliar imagen" for="toggle-img-carfix"><img src="archivos/carfix.jpeg" alt="Proyecto Carfix"></label></div><div class="body"><h4>Carfix</h4><p>Videos con soluciones para problemas automovilísticos.</p></div></div>
+      <div class="project-card"><div class="img-slot"><label class="media-trigger" aria-label="Ampliar imagen" for="toggle-img-emertech"><img src="archivos/emertech.jpeg" alt="Proyecto Emertech"></label></div><div class="body"><h4>Emertech</h4><p>Herramienta orientada a brindar ayuda ante emergencias.</p></div></div>
+      <div class="project-card"><div class="img-slot"><label class="media-trigger" aria-label="Ampliar imagen" for="toggle-img-medicoaching"><img src="archivos/medicoaching.jpeg" alt="Proyecto Medicoaching"></label></div><div class="body"><h4>Medicoaching</h4><p>Capacitaciones de lengua de señas LESSA y ASL.</p></div></div>
+      <div class="project-card"><div class="img-slot"><label class="media-trigger" aria-label="Ampliar imagen" for="toggle-img-comicquest"><img src="archivos/comicquest.jpeg" alt="Proyecto Comicquest"></label></div><div class="body"><h4>Comicquest</h4><p>Exploración espacial organizada por distintos apartados.</p></div></div>
     </div>
-
-    <div class="portfolio-tabs-label">
-      <h3>Categoría artística y expresiva</h3>
-      <div class="line"></div>
-    </div>
-
-    <ul class="art-list">
-      <li>Dibujos estilo ZenTangle</li>
-      <li>Poemas</li>
-    </ul>
-
-    <div class="art-gallery">
-      <div class="art-slot">
-        <label class="media-trigger"  aria-label="Ampliar imagen" for="toggle-img-dibujo1"><img src="archivos/dibujo1.jpeg" alt="Dibujo estilo ZenTangle 1"></label>
-      </div>
-      <div class="art-slot">
-        <label class="media-trigger"  aria-label="Ampliar imagen" for="toggle-img-dibujo2"><img src="archivos/dibujo2.jpeg" alt="Dibujo estilo ZenTangle 2"></label>
-      </div>
-      <div class="art-slot">
-        <label class="media-trigger"  aria-label="Ampliar imagen" for="toggle-img-dibujo3"><img src="archivos/dibujo3.jpeg" alt="Dibujo estilo ZenTangle 3"></label>
-      </div>
-
-      <div class="poem-slot">
-        <h4>La nada que me tuvo.</h4>
-        <p>Nosotros que nacimos en tierra de frescuras y vapores <br>
-En calles de historias perdidas<br>
-Donde pasaban carretas en vez de carros<br>
-En casas de tejas de ladrillo.<br>
-<br>
-Nosotros que bañamos en pila,<br>
-Nosotros que corrimos descalzos por la tierra,<br>
-Nostros que nos pegaron con un garrote por burros, <br>
-Hoy, vivimos más felices que nunca.<br>
-<br>
-Y pensar que lo que antes era todo,<br>
-Hoy es nada,<br>
-y aún así,<br>
-preferiria vivir esa nada,<br>
-Que negar todo lo que un día me tuvo.</p><br>
-      </div>
+    <div class="portfolio-tabs-label"><h3>Categoría artística y expresiva</h3><div class="line"></div></div><ul class="art-list"><li>Dibujos estilo ZenTangle</li><li>Poemas</li></ul><div class="art-gallery">
+      <div class="art-slot"><label class="media-trigger" aria-label="Ampliar imagen" for="toggle-img-dibujo1"><img src="archivos/dibujo1.jpeg" alt="Dibujo estilo ZenTangle 1"></label></div><div class="art-slot"><label class="media-trigger" aria-label="Ampliar imagen" for="toggle-img-dibujo2"><img src="archivos/dibujo2.jpeg" alt="Dibujo estilo ZenTangle 2"></label></div><div class="art-slot"><label class="media-trigger" aria-label="Ampliar imagen" for="toggle-img-dibujo3"><img src="archivos/dibujo3.jpeg" alt="Dibujo estilo ZenTangle 3"></label></div>
+      <div class="poem-slot"><h4>La nada que me tuvo.</h4><p>Nosotros que nacimos en tierra de frescuras y vapores<br>En calles de historias perdidas<br>Donde pasaban carretas en vez de carros<br>En casas de tejas de ladrillo.</p></div>
     </div>
   </section>
 
-  <!-- ===== SECCIÓN 7: CURRÍCULO ===== -->
-  <section id="cv">
-    <p class="kicker">Currículum</p>
-    <h2>¿Quieres el resumen completo?</h2>
-    <div class="cv-box">
-      <div>
-        <h3>Descarga mi CV completo</h3>
-        <p>Formación, logros y experiencia en un solo documento en PDF.</p>
-      </div>
-      <a class="cv-button" href="archivos/cv.pdf" download>Descargar CV (PDF)</a>
-    </div>
-  </section>
-
+  <section id="cv"><p class="kicker">Currículum</p><h2>¿Quieres el resumen completo?</h2><div class="cv-box"><div><h3>Descarga mi CV completo</h3><p>Formación, logros y experiencia en un solo documento en PDF.</p></div><a class="cv-button" href="archivos/cv.pdf" download>Descargar CV (PDF)</a></div></section>
 </main>
 
-<!-- ===== VISUALIZACIÓN DE PDFs E IMÁGENES SIN JAVASCRIPT ===== -->
-<!-- Cada checkbox controla un modal. Las etiquetas <label> permiten abrirlo y cerrarlo. -->
-<input id="toggle-media-css" class="media-toggle" type="checkbox">
-<div id="media-css" class="media-modal"><label class="modal-bg" for="toggle-media-css" aria-label="Cerrar"></label><label class="modal-close" for="toggle-media-css" aria-label="Cerrar">×</label><iframe src="archivos/Cert62413161172.pdf" title="Introducción a CSS" loading="lazy"></iframe></div>
-<div id="media-html" class="media-modal"><label class="modal-bg" for="toggle-media-html" aria-label="Cerrar"></label><label class="modal-close" for="toggle-media-html" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/html.jpeg" alt="Introducción a HTML"></div>
-<div id="media-js" class="media-modal"><label class="modal-bg" for="toggle-media-js" aria-label="Cerrar"></label><label class="modal-close" for="toggle-media-js" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/js.jpg" alt="Introducción a JavaScript"></div>
-<div id="pdf-excel-expert" class="media-modal"><label class="modal-bg" for="toggle-pdf-excel-expert" aria-label="Cerrar"></label><label class="modal-close" for="toggle-pdf-excel-expert" aria-label="Cerrar">×</label><iframe src="archivos/Excel%20Expert.pdf" title="Microsoft Excel Expert" loading="lazy"></iframe></div>
-<div id="pdf-excel-intermedio" class="media-modal"><label class="modal-bg" for="toggle-pdf-excel-intermedio" aria-label="Cerrar"></label><label class="modal-close" for="toggle-pdf-excel-intermedio" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/css.jpeg" alt="Microsoft Excel Intermedio"></div>
-<div id="pdf-telus" class="media-modal"><label class="modal-bg" for="toggle-pdf-telus" aria-label="Cerrar"></label><label class="modal-close" for="toggle-pdf-telus" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/html.jpeg" alt="Grupo de Inglés — TELUS"></div>
-<div id="pdf-netacad" class="media-modal"><label class="modal-bg" for="toggle-pdf-netacad" aria-label="Cerrar"></label><label class="modal-close" for="toggle-pdf-netacad" aria-label="Cerrar">×</label><iframe src="archivos/NetworkingBasicsUpdate20260630-31-3f43p0%20%281%29.pdf" title="NetAcad" loading="lazy"></iframe></div>
-<div id="pdf-devweek" class="media-modal"><label class="modal-bg" for="toggle-pdf-devweek" aria-label="Cerrar"></label><label class="modal-close" for="toggle-pdf-devweek" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/css.jpeg" alt="DevWeek — Elaniin"></div>
-<div id="pdf-research" class="media-modal"><label class="modal-bg" for="toggle-pdf-research" aria-label="Cerrar"></label><label class="modal-close" for="toggle-pdf-research" aria-label="Cerrar">×</label><iframe src="archivos/Anteproyecto-Grupo%20C-Huizúcar-GE.pdf" title="Anteproyecto de investigación — Grupo C" loading="lazy"></iframe></div>
-<div id="img-vol1" class="media-modal"><label class="modal-bg" for="toggle-img-vol1" aria-label="Cerrar"></label><label class="modal-close" for="toggle-img-vol1" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/voluntariado1.jpeg" alt="Proyecto social de alfabetización"></div>
-<div id="img-vol2" class="media-modal"><label class="modal-bg" for="toggle-img-vol2" aria-label="Cerrar"></label><label class="modal-close" for="toggle-img-vol2" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/voluntariado2.jpeg" alt="Actividades comunitarias"></div>
-<div id="img-vol3" class="media-modal"><label class="modal-bg" for="toggle-img-vol3" aria-label="Cerrar"></label><label class="modal-close" for="toggle-img-vol3" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/voluntariado3.jpeg" alt="Mañanitas recreativas"></div>
-<div id="img-bitex" class="media-modal"><label class="modal-bg" for="toggle-img-bitex" aria-label="Cerrar"></label><label class="modal-close" for="toggle-img-bitex" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/bitex.png" alt="Proyecto BiteX"></div>
-<div id="img-refrescate" class="media-modal"><label class="modal-bg" for="toggle-img-refrescate" aria-label="Cerrar"></label><label class="modal-close" for="toggle-img-refrescate" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/refrescate.jpeg" alt="EcoEnvase 3D / Refresca-te"></div>
-<div id="img-carfix" class="media-modal"><label class="modal-bg" for="toggle-img-carfix" aria-label="Cerrar"></label><label class="modal-close" for="toggle-img-carfix" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/carfix.jpeg" alt="Proyecto Carfix"></div>
-<div id="img-emertech" class="media-modal"><label class="modal-bg" for="toggle-img-emertech" aria-label="Cerrar"></label><label class="modal-close" for="toggle-img-emertech" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/emertech.jpeg" alt="Proyecto Emertech"></div>
-<div id="img-medicoaching" class="media-modal"><label class="modal-bg" for="toggle-img-medicoaching" aria-label="Cerrar"></label><label class="modal-close" for="toggle-img-medicoaching" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/medicoaching.jpeg" alt="Proyecto Medicoaching"></div>
-<div id="img-comicquest" class="media-modal"><label class="modal-bg" for="toggle-img-comicquest" aria-label="Cerrar"></label><label class="modal-close" for="toggle-img-comicquest" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/comicquest.jpeg" alt="Proyecto Comicquest"></div>
-<div id="img-dibujo1" class="media-modal"><label class="modal-bg" for="toggle-img-dibujo1" aria-label="Cerrar"></label><label class="modal-close" for="toggle-img-dibujo1" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/dibujo1.jpeg" alt="Dibujo estilo ZenTangle 1"></div>
-<div id="img-dibujo2" class="media-modal"><label class="modal-bg" for="toggle-img-dibujo2" aria-label="Cerrar"></label><label class="modal-close" for="toggle-img-dibujo2" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/dibujo2.jpeg" alt="Dibujo estilo ZenTangle 2"></div>
-<div id="img-dibujo3" class="media-modal"><label class="modal-bg" for="toggle-img-dibujo3" aria-label="Cerrar"></label><label class="modal-close" for="toggle-img-dibujo3" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/dibujo3.jpeg" alt="Dibujo estilo ZenTangle 3"></div>
+<!-- Los identificadores de los checkboxes coinciden exactamente con los labels. -->
+<input id="toggle-media-css" class="media-toggle" type="checkbox"><div id="media-css" class="media-modal"><label class="modal-bg" for="toggle-media-css" aria-label="Cerrar"></label><label class="modal-close" for="toggle-media-css" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/css.jpeg" alt="Certificado Introducción a CSS"></div>
+<input id="toggle-media-html" class="media-toggle" type="checkbox"><div id="media-html" class="media-modal"><label class="modal-bg" for="toggle-media-html" aria-label="Cerrar"></label><label class="modal-close" for="toggle-media-html" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/html.jpeg" alt="Certificado Introducción a HTML"></div>
+<input id="toggle-media-js" class="media-toggle" type="checkbox"><div id="media-js" class="media-modal"><label class="modal-bg" for="toggle-media-js" aria-label="Cerrar"></label><label class="modal-close" for="toggle-media-js" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/js.jpg" alt="Certificado Introducción a JavaScript"></div>
+<input id="toggle-pdf-excel-expert" class="media-toggle" type="checkbox"><div id="pdf-excel-expert" class="media-modal"><label class="modal-bg" for="toggle-pdf-excel-expert" aria-label="Cerrar"></label><label class="modal-close" for="toggle-pdf-excel-expert" aria-label="Cerrar">×</label><iframe src="archivos/Excel%20Expert.pdf" title="Microsoft Excel Expert" loading="lazy"></iframe></div>
+<input id="toggle-pdf-excel-intermedio" class="media-toggle" type="checkbox"><div id="pdf-excel-intermedio" class="media-modal"><label class="modal-bg" for="toggle-pdf-excel-intermedio" aria-label="Cerrar"></label><label class="modal-close" for="toggle-pdf-excel-intermedio" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/15_Diploma.pdf" alt="Microsoft Excel Intermedio"></div>
+<input id="toggle-pdf-telus" class="media-toggle" type="checkbox"><div id="pdf-telus" class="media-modal"><label class="modal-bg" for="toggle-pdf-telus" aria-label="Cerrar"></label><label class="modal-close" for="toggle-pdf-telus" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/Diploma%20-%20Gabriel%20De%20Jesu%CC%81s%20Moreno.pdf" alt="Grupo de Inglés — TELUS"></div>
+<input id="toggle-pdf-netacad" class="media-toggle" type="checkbox"><div id="pdf-netacad" class="media-modal"><label class="modal-bg" for="toggle-pdf-netacad" aria-label="Cerrar"></label><label class="modal-close" for="toggle-pdf-netacad" aria-label="Cerrar">×</label><iframe src="archivos/NetworkingBasicsUpdate20260630-31-3f43p0%20%281%29.pdf" title="NetAcad" loading="lazy"></iframe></div>
+<input id="toggle-pdf-devweek" class="media-toggle" type="checkbox"><div id="pdf-devweek" class="media-modal"><label class="modal-bg" for="toggle-pdf-devweek" aria-label="Cerrar"></label><label class="modal-close" for="toggle-pdf-devweek" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/Cert62413161172.pdf" alt="DevWeek — Elaniin"></div>
+<input id="toggle-pdf-research" class="media-toggle" type="checkbox"><div id="pdf-research" class="media-modal"><label class="modal-bg" for="toggle-pdf-research" aria-label="Cerrar"></label><label class="modal-close" for="toggle-pdf-research" aria-label="Cerrar">×</label><iframe src="archivos/Anteproyecto-Grupo%20C-Huizúcar-GE.pdf" title="Anteproyecto de investigación — Grupo C" loading="lazy"></iframe></div>
 
-<!-- Modales de Logros Académicos -->
-<input id="toggle-pdf-speech2026" class="media-toggle" type="checkbox">
-<div id="pdf-speech2026" class="media-modal"><label class="modal-bg" for="toggle-pdf-speech2026" aria-label="Cerrar"></label><label class="modal-close" for="toggle-pdf-speech2026" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/Speechcontest2-preview.jpeg" alt="Certificado Speech Contest 2026"></div>
+<input id="toggle-pdf-speech2026" class="media-toggle" type="checkbox"><div id="pdf-speech2026" class="media-modal"><label class="modal-bg" for="toggle-pdf-speech2026" aria-label="Cerrar"></label><label class="modal-close" for="toggle-pdf-speech2026" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/Speechcontest2-preview.jpeg" alt="Certificado Speech Contest 2026"></div>
+<input id="toggle-pdf-speech2025" class="media-toggle" type="checkbox"><div id="pdf-speech2025" class="media-modal"><label class="modal-bg" for="toggle-pdf-speech2025" aria-label="Cerrar"></label><label class="modal-close" for="toggle-pdf-speech2025" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/Speechcontest1-preview.jpeg" alt="Certificado Speech Contest 2025"></div>
+<input id="toggle-pdf-estrellita-info" class="media-toggle" type="checkbox"><div id="pdf-estrellita-info" class="media-modal"><label class="modal-bg" for="toggle-pdf-estrellita-info" aria-label="Cerrar"></label><label class="modal-close" for="toggle-pdf-estrellita-info" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/EstrellitaInfo-preview.jpeg" alt="Certificado de Informática"></div>
+<input id="toggle-pdf-estrella-valores" class="media-toggle" type="checkbox"><div id="pdf-estrella-valores" class="media-modal"><label class="modal-bg" for="toggle-pdf-estrella-valores" aria-label="Cerrar"></label><label class="modal-close" for="toggle-pdf-estrella-valores" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/EstrellitaValores-preview.jpeg" alt="Certificado de Valores"></div>
+<input id="toggle-pdf-idea-innovadora" class="media-toggle" type="checkbox"><div id="pdf-idea-innovadora" class="media-modal"><label class="modal-bg" for="toggle-pdf-idea-innovadora" aria-label="Cerrar"></label><label class="modal-close" for="toggle-pdf-idea-innovadora" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/IdeaInnovadora-preview.jpeg" alt="Idea innovadora 2023"></div>
 
-<input id="toggle-pdf-speech2025" class="media-toggle" type="checkbox">
-<div id="pdf-speech2025" class="media-modal"><label class="modal-bg" for="toggle-pdf-speech2025" aria-label="Cerrar"></label><label class="modal-close" for="toggle-pdf-speech2025" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/Speechcontest1-preview.jpeg" alt="Certificado Speech Contest 2025"></div>
-
-<input id="toggle-pdf-estrellita-info" class="media-toggle" type="checkbox">
-<div id="pdf-estrellita-info" class="media-modal"><label class="modal-bg" for="toggle-pdf-estrellita-info" aria-label="Cerrar"></label><label class="modal-close" for="toggle-pdf-estrellita-info" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/EstrellitaInfo-preview.jpeg" alt="Certificado Estrella ¡Supérate! Informática"></div>
-
-<input id="toggle-pdf-estrella-valores" class="media-toggle" type="checkbox">
-<div id="pdf-estrella-valores" class="media-modal"><label class="modal-bg" for="toggle-pdf-estrella-valores" aria-label="Cerrar"></label><label class="modal-close" for="toggle-pdf-estrella-valores" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/EstrellitaValores-preview.jpeg" alt="Certificado Estrella ¡Supérate! Valores"></div>
-
-<input id="toggle-pdf-idea-innovadora" class="media-toggle" type="checkbox">
-<div id="pdf-idea-innovadora" class="media-modal"><label class="modal-bg" for="toggle-pdf-idea-innovadora" aria-label="Cerrar"></label><label class="modal-close" for="toggle-pdf-idea-innovadora" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/IdeaInnovadora-preview.jpeg" alt="Idea innovadora 2023"></div>
-
+<input id="toggle-img-vol1" class="media-toggle" type="checkbox"><div id="img-vol1" class="media-modal"><label class="modal-bg" for="toggle-img-vol1" aria-label="Cerrar"></label><label class="modal-close" for="toggle-img-vol1" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/voluntariado1.jpeg" alt="Proyecto social de alfabetización"></div>
+<input id="toggle-img-vol2" class="media-toggle" type="checkbox"><div id="img-vol2" class="media-modal"><label class="modal-bg" for="toggle-img-vol2" aria-label="Cerrar"></label><label class="modal-close" for="toggle-img-vol2" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/voluntariado2.jpeg" alt="Actividades comunitarias"></div>
+<input id="toggle-img-vol3" class="media-toggle" type="checkbox"><div id="img-vol3" class="media-modal"><label class="modal-bg" for="toggle-img-vol3" aria-label="Cerrar"></label><label class="modal-close" for="toggle-img-vol3" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/voluntariado3.jpeg" alt="Mañanitas recreativas"></div>
+<input id="toggle-img-bitex" class="media-toggle" type="checkbox"><div id="img-bitex" class="media-modal"><label class="modal-bg" for="toggle-img-bitex" aria-label="Cerrar"></label><label class="modal-close" for="toggle-img-bitex" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/bitex.png" alt="Proyecto BiteX"></div>
+<input id="toggle-img-refrescate" class="media-toggle" type="checkbox"><div id="img-refrescate" class="media-modal"><label class="modal-bg" for="toggle-img-refrescate" aria-label="Cerrar"></label><label class="modal-close" for="toggle-img-refrescate" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/refrescate.jpeg" alt="EcoEnvase 3D / Refresca-te"></div>
+<input id="toggle-img-carfix" class="media-toggle" type="checkbox"><div id="img-carfix" class="media-modal"><label class="modal-bg" for="toggle-img-carfix" aria-label="Cerrar"></label><label class="modal-close" for="toggle-img-carfix" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/carfix.jpeg" alt="Proyecto Carfix"></div>
+<input id="toggle-img-emertech" class="media-toggle" type="checkbox"><div id="img-emertech" class="media-modal"><label class="modal-bg" for="toggle-img-emertech" aria-label="Cerrar"></label><label class="modal-close" for="toggle-img-emertech" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/emertech.jpeg" alt="Proyecto Emertech"></div>
+<input id="toggle-img-medicoaching" class="media-toggle" type="checkbox"><div id="img-medicoaching" class="media-modal"><label class="modal-bg" for="toggle-img-medicoaching" aria-label="Cerrar"></label><label class="modal-close" for="toggle-img-medicoaching" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/medicoaching.jpeg" alt="Proyecto Medicoaching"></div>
+<input id="toggle-img-comicquest" class="media-toggle" type="checkbox"><div id="img-comicquest" class="media-modal"><label class="modal-bg" for="toggle-img-comicquest" aria-label="Cerrar"></label><label class="modal-close" for="toggle-img-comicquest" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/comicquest.jpeg" alt="Proyecto Comicquest"></div>
+<input id="toggle-img-dibujo1" class="media-toggle" type="checkbox"><div id="img-dibujo1" class="media-modal"><label class="modal-bg" for="toggle-img-dibujo1" aria-label="Cerrar"></label><label class="modal-close" for="toggle-img-dibujo1" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/dibujo1.jpeg" alt="Dibujo ZenTangle 1"></div>
+<input id="toggle-img-dibujo2" class="media-toggle" type="checkbox"><div id="img-dibujo2" class="media-modal"><label class="modal-bg" for="toggle-img-dibujo2" aria-label="Cerrar"></label><label class="modal-close" for="toggle-img-dibujo2" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/dibujo2.jpeg" alt="Dibujo ZenTangle 2"></div>
+<input id="toggle-img-dibujo3" class="media-toggle" type="checkbox"><div id="img-dibujo3" class="media-modal"><label class="modal-bg" for="toggle-img-dibujo3" aria-label="Cerrar"></label><label class="modal-close" for="toggle-img-dibujo3" aria-label="Cerrar">×</label><img class="modal-img" src="archivos/dibujo3.jpeg" alt="Dibujo ZenTangle 3"></div>
 </body>
 </html>
